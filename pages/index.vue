@@ -43,7 +43,7 @@
       <div>
         <img
           class="w-16 h-16 rounded-full border-4 border-gray-100"
-          src="~assets/profile.jpg"
+          src="~assets/profile-picture.jpg"
           alt="profile picture"
         />
       </div>
