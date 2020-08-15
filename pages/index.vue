@@ -1,14 +1,15 @@
 <template>
-  <div class="max-w-4xl mx-auto lg:my-4 lg:rounded-lg lg:shadow-lg overflow-hidden">
-    <div class="s">
-      <div class="flex items-center justify-between px-4 py-5 bg-blue-900 text-white">
-        <div>
-          <h1 class="block uppercase text-2xl font-semibold">
+  <div class="lg:max-w-4xl lg:mx-auto lg:my-8 lg:rounded-lg lg:shadow-lg overflow-hidden">
+    <div class="bg-blue-800 md:px-12 md:py-8 lg:mx-0 px-4 py-5 lg:p-8">
+      <div class="flex items-center justify-between max-w-2xl mx-auto lg:w-full text-white">
+        <div class>
+          <h1 class="block uppercase text-2xl md:text-4xl font-semibold">
             Milan
             <span class="font-normal">Budhathoki</span>
           </h1>
           <div class="flex mt-2">
-            <button
+            <a
+              href="https://github.com/01milan10"
               class="flex px-1 items-center rounded hover:bg-gray-200 hover:text-gray-800 hover:border-b hover:shadow-outline focus:outline-none focus:border-b focus:shadow-outline focus:bg-gray-200 focus:text-gray-800"
             >
               <svg
@@ -22,9 +23,10 @@
                 />
               </svg>
               <span class="block ml-2 font-semibold">GitHub</span>
-            </button>
+            </a>
             <div class="mx-2 border-r"></div>
-            <button
+            <a
+              href="https://twitter.com/01milan10"
               class="flex px-1 items-center rounded hover:bg-gray-200 hover:text-gray-800 hover:border-b hover:shadow-outline focus:outline-none focus:border-b focus:shadow-outline focus:bg-gray-200 focus:text-gray-800"
             >
               <svg
@@ -38,140 +40,164 @@
                 />
               </svg>
               <span class="block ml-2 font-semibold">Twitter</span>
-            </button>
+            </a>
           </div>
         </div>
         <div>
           <img
-            class="w-16 h-16 rounded-full border-4 border-gray-100"
+            class="w-16 h-16 md:w-32 md:h-32 rounded-full border-4 border-gray-100"
             src="~assets/profile-picture.jpg"
             alt="profile picture"
           />
         </div>
       </div>
-      <div class="h-2 bg-blue-900 bg-opacity-75"></div>
     </div>
-    <main class="px-5 py-10 border text-xs sm:text-base">
-      <div class="shadow-md rounded-lg overflow-hidden">
-        <div class="flex items-center h-10 bg-gray-300">
-          <div class="h-4 w-4 ml-3 mr-1 rounded-full bg-red-400"></div>
-          <div class="h-4 w-4 mx-1 rounded-full bg-yellow-400"></div>
-          <div class="h-4 w-4 mx-1 rounded-full bg-green-400"></div>
-        </div>
-        <div class="px-4 py-4 tracking-wide">
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">1</span>
-            <span class="inline-block ml-2 text-gray-600">// Personal Information</span>
+    <div class="h-2 bg-blue-900 bg-opacity-75"></div>
+    <div class="max-w-2xl lg:max-w-full mx-auto lg:mx-0">
+      <main class="p-10 text-xs sm:text-base">
+        <div class="flex">
+          <div class="w-full lg:w-2/3 shadow-md rounded-lg overflow-hidden">
+            <div class="flex items-center h-10 bg-gray-300">
+              <div class="h-4 w-4 ml-3 mr-1 rounded-full bg-red-400"></div>
+              <div class="h-4 w-4 mx-1 rounded-full bg-yellow-400"></div>
+              <div class="h-4 w-4 mx-1 rounded-full bg-green-400"></div>
+            </div>
+            <div class="px-4 py-4 tracking-wide">
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">1</span>
+                <span class="inline-block ml-2 text-gray-600">// Personal Information</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">2</span>
+                <span class="inline-block ml-2 text-gray-800">const name = "Milan Budhathoki" ;</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">3</span>
+                <span class="inline-block ml-2 text-gray-800">const address = "Kathmandu, Nepal" ;</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">4</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">5</span>
+                <span class="inline-block ml-2 text-gray-600">// Hobbies</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">6</span>
+                <span class="inline-block ml-2 text-gray-800">const hobbies = [</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">7</span>
+                <span class="inline-block ml-2 text-gray-800">"Writing code",</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">8</span>
+                <span class="inline-block ml-2 text-gray-800">"Playing games",</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">9</span>
+                <span class="inline-block ml-2 text-gray-800">"Food"</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">10</span>
+                <span class="inline-block ml-2 text-gray-800">] ;</span>
+              </div>
+            </div>
           </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">2</span>
-            <span class="inline-block ml-2 text-gray-800">const name = "Milan Budhathoki" ;</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">3</span>
-            <span class="inline-block ml-2 text-gray-800">const address = "Kathmandu, Nepal" ;</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">4</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">5</span>
-            <span class="inline-block ml-2 text-gray-600">// Hobbies</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">6</span>
-            <span class="inline-block ml-2 text-gray-800">const hobbies = [</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">7</span>
-            <span class="inline-block ml-2 text-gray-800">"Writing code",</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">8</span>
-            <span class="inline-block ml-2 text-gray-800">"Playing games",</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">9</span>
-            <span class="inline-block ml-2 text-gray-800">"Food"</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">10</span>
-            <span class="inline-block ml-2 text-gray-800">] ;</span>
-          </div>
-        </div>
-      </div>
-      <div class="mt-4 shadow-md rounded-lg overflow-hidden">
-        <div class="flex items-center h-10 bg-gray-300">
-          <div class="h-4 w-4 ml-3 mr-1 rounded-full bg-red-400"></div>
-          <div class="h-4 w-4 mx-1 rounded-full bg-yellow-400"></div>
-          <div class="h-4 w-4 mx-1 rounded-full bg-green-400"></div>
-        </div>
-        <div class="px-4 py-4 tracking-wide">
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">11</span>
-            <span class="inline-block ml-2 text-gray-600">// Work Information</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">12</span>
-            <span class="inline-block ml-2 text-gray-800">const profession = "Software Developer" ;</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">13</span>
-            <span class="inline-block ml-2 text-gray-800">
-              const employer =
-              <span class="text-red-800">null</span> ;
-            </span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">14</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">15</span>
-            <span class="inline-block ml-2 text-gray-600">// Most important skills</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">16</span>
-            <span class="inline-block ml-2 text-gray-800">const languages = [</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">17</span>
-            <span class="inline-block ml-2 text-gray-800">"PHP",</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">18</span>
-            <span class="inline-block ml-2 text-gray-800">"JavaScript",</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">19</span>
-            <span class="inline-block ml-2 text-gray-800">] ;</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">20</span>
-            <span class="inline-block ml-2 text-gray-800">const frameworks = [</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">21</span>
-            <span class="inline-block ml-2 text-gray-800">"Laravel",</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">22</span>
-            <span class="inline-block ml-2 text-gray-800">"Vue",</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">23</span>
-            <span class="inline-block ml-2 text-gray-800">"Nuxt",</span>
-          </div>
-          <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">24</span>
-            <span class="inline-block ml-2 text-gray-800">"Vuetify",</span>
-          </div>
-          <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-            <span class="block text-gray-500 mt-1">25</span>
-            <span class="inline-block ml-2 text-gray-800">] ;</span>
+          <div class="my-auto lg:h-full lg:w-1/3 hidden lg:flex items-center justify-center">
+            <div class="text-2xl text-blue-800 uppercase">
+              <span>Who I am</span>
+              <div class="mt-2 w-12 h-1 bg-blue-800"></div>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+        <div class="flex mt-10">
+          <div class="my-auto lg:h-full lg:w-1/3 hidden lg:flex items-center justify-center">
+            <div class="text-2xl text-blue-800 uppercase">
+              <span>What I do</span>
+              <div class="mt-2 w-12 h-1 bg-blue-800"></div>
+            </div>
+          </div>
+          <div class="w-full lg:w-2/3 shadow-md rounded-lg overflow-hidden">
+            <div class="flex items-center h-10 bg-gray-300">
+              <div class="h-4 w-4 ml-3 mr-1 rounded-full bg-red-400"></div>
+              <div class="h-4 w-4 mx-1 rounded-full bg-yellow-400"></div>
+              <div class="h-4 w-4 mx-1 rounded-full bg-green-400"></div>
+            </div>
+            <div class="px-4 py-4 tracking-wide">
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">11</span>
+                <span class="inline-block ml-2 text-gray-600">// Work Information</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">12</span>
+                <span
+                  class="inline-block ml-2 text-gray-800"
+                >const profession = "Software Developer" ;</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">13</span>
+                <span class="inline-block ml-2 text-gray-800">
+                  const employer =
+                  <span class="text-red-800">null</span> ;
+                </span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">14</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">15</span>
+                <span class="inline-block ml-2 text-gray-600">// Most important skills</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">16</span>
+                <span class="inline-block ml-2 text-gray-800">const languages = [</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">17</span>
+                <span class="inline-block ml-2 text-gray-800">"PHP",</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">18</span>
+                <span class="inline-block ml-2 text-gray-800">"JavaScript",</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">19</span>
+                <span class="inline-block ml-2 text-gray-800">] ;</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">20</span>
+                <span class="inline-block ml-2 text-gray-800">const frameworks = [</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">21</span>
+                <span class="inline-block ml-2 text-gray-800">"Laravel",</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">22</span>
+                <span class="inline-block ml-2 text-gray-800">"Vue",</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">23</span>
+                <span class="inline-block ml-2 text-gray-800">"Nuxt",</span>
+              </div>
+              <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">24</span>
+                <span class="inline-block ml-2 text-gray-800">"Vuetify",</span>
+              </div>
+              <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <span class="block text-gray-500 mt-1">25</span>
+                <span class="inline-block ml-2 text-gray-800">] ;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="flex justify-end p-2 text-xs">
+      <span class="text-gray-400">concept:</span>
+      <a class="ml-2 text-indigo-200" href="https://twitter.com/malfaitrobin">@malfaitrobin</a>
+    </div>
   </div>
 </template>
 
