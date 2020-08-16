@@ -1,7 +1,18 @@
 <template>
-  <div class="lg:max-w-4xl lg:mx-auto lg:my-8 lg:rounded-lg lg:shadow-lg overflow-hidden">
-    <div class="bg-blue-800 md:px-12 md:py-8 lg:mx-0 px-4 py-5 lg:p-8">
-      <div class="flex items-center justify-between max-w-2xl mx-auto lg:w-full text-white">
+  <div class="relative lg:max-w-4xl lg:my-8 lg:mx-auto lg:rounded-lg lg:shadow-lg overflow-hidden">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 896 240"
+      class="z-10 hidden w-full text-blue-900 lg:block"
+    >
+      <polygon points="0,0 896,0 896,180 0,240" fill="currentColor" />
+    </svg>
+    <div
+      class="lg:absolute lg:top-0 lg:right-0 lg:left-0 bg-blue-900 lg:bg-opacity-75 md:px-12 md:py-8 lg:mx-0 px-4 py-5 lg:p-10"
+    >
+      <div
+        class="z-20 flex items-center justify-between max-w-2xl mx-auto lg:mx-0 lg:max-w-full text-white"
+      >
         <div class>
           <h1 class="block uppercase text-2xl md:text-4xl font-semibold">
             Milan
@@ -52,7 +63,7 @@
         </div>
       </div>
     </div>
-    <div class="h-2 bg-blue-900 bg-opacity-75"></div>
+    <div class="h-2 lg:hidden bg-blue-900 bg-opacity-75"></div>
     <div class="max-w-2xl lg:max-w-full mx-auto lg:mx-0">
       <main class="p-10 text-xs sm:text-base">
         <div class="flex">
