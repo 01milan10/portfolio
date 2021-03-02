@@ -79,48 +79,78 @@
                 <div class="h-4 w-4 mx-1 rounded-full bg-green-400"></div>
               </div>
               <div class="px-4 py-4 tracking-wide">
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">1</span>
-                  <span class="inline-block ml-2 text-gray-600">// Personal Information</span>
+                  <span class="inline-block ml-2 text-gray-600"
+                    >// Personal Information</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">2</span>
-                  <span class="inline-block ml-2 text-gray-800">const name = "Milan Budhathoki" ;</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >const name = "Milan Budhathoki" ;</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">3</span>
-                  <span class="inline-block ml-2 text-gray-800">const address = "Kathmandu, Nepal" ;</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >const address = "Kathmandu, Nepal" ;</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">4</span>
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">5</span>
-                  <span class="inline-block ml-2 text-gray-600">// Hobbies</span>
+                  <span class="inline-block ml-2 text-gray-600"
+                    >// Hobbies</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">6</span>
-                  <span class="inline-block ml-2 text-gray-800">const hobbies = [</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >const hobbies = [</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">7</span>
-                  <span class="inline-block ml-2 text-gray-800">"Writing code",</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >"Writing code",</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">8</span>
-                  <span class="inline-block ml-2 text-gray-800">"Playing games",</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >"Playing games",</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">9</span>
-                  <span class="inline-block ml-2 text-gray-800">"Food"</span>
-                </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
-                  <span class="block text-gray-500 mt-1">10</span>
                   <span class="inline-block ml-2 text-gray-800">] ;</span>
                 </div>
               </div>
             </div>
-            <div class="my-auto lg:h-full lg:w-1/3 hidden lg:flex items-center justify-center">
+            <div
+              class="my-auto lg:h-full lg:w-1/3 hidden lg:flex items-center justify-center"
+            >
               <div class="text-2xl text-blue-800 uppercase">
                 <span>Who I am</span>
                 <div class="mt-2 w-12 h-1 bg-blue-800"></div>
@@ -128,7 +158,9 @@
             </div>
           </div>
           <div class="flex mt-10">
-            <div class="my-auto lg:h-full lg:w-1/3 hidden lg:flex items-center justify-center">
+            <div
+              class="my-auto lg:h-full lg:w-1/3 hidden lg:flex items-center justify-center"
+            >
               <div class="text-2xl text-blue-800 uppercase">
                 <span>What I do</span>
                 <div class="mt-2 w-12 h-1 bg-blue-800"></div>
@@ -141,67 +173,111 @@
                 <div class="h-4 w-4 mx-1 rounded-full bg-green-400"></div>
               </div>
               <div class="px-4 py-4 tracking-wide">
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">11</span>
-                  <span class="inline-block ml-2 text-gray-600">// Work Information</span>
+                  <span class="inline-block ml-2 text-gray-600"
+                    >// Work Information</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">12</span>
-                  <span
-                    class="inline-block ml-2 text-gray-800"
-                  >const profession = "Software Developer" ;</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >const profession = "Software Developer" ;</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">13</span>
                   <span class="inline-block ml-2 text-gray-800">
-                    const employer =
-                    <span class="text-red-800">null</span> ;
+                    const employer = "<span class="text-red-800"
+                      >Deerhold Nepal</span
+                    >
+                    <span>" ;</span>
                   </span>
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">14</span>
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">15</span>
-                  <span class="inline-block ml-2 text-gray-600">// Most important skills</span>
+                  <span class="inline-block ml-2 text-gray-600"
+                    >// Most important skills</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">16</span>
-                  <span class="inline-block ml-2 text-gray-800">const languages = [</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >const languages = [</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">17</span>
                   <span class="inline-block ml-2 text-gray-800">"PHP",</span>
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">18</span>
-                  <span class="inline-block ml-2 text-gray-800">"JavaScript",</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >"JavaScript",</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">19</span>
                   <span class="inline-block ml-2 text-gray-800">] ;</span>
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">20</span>
-                  <span class="inline-block ml-2 text-gray-800">const frameworks = [</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >const frameworks = [</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">21</span>
-                  <span class="inline-block ml-2 text-gray-800">"Laravel",</span>
+                  <span class="inline-block ml-2 text-gray-800">"React",</span>
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">22</span>
                   <span class="inline-block ml-2 text-gray-800">"Vue",</span>
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">23</span>
                   <span class="inline-block ml-2 text-gray-800">"Nuxt",</span>
                 </div>
-                <div class="flex items-baseline space-x-6 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-6 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">24</span>
-                  <span class="inline-block ml-2 text-gray-800">"Vuetify",</span>
+                  <span class="inline-block ml-2 text-gray-800"
+                    >"Laravel",</span
+                  >
                 </div>
-                <div class="flex items-baseline space-x-4 leading-relaxed tracking-wide">
+                <div
+                  class="flex items-baseline space-x-4 leading-relaxed tracking-wide"
+                >
                   <span class="block text-gray-500 mt-1">25</span>
                   <span class="inline-block ml-2 text-gray-800">] ;</span>
                 </div>
@@ -212,7 +288,9 @@
       </div>
       <div class="flex justify-end p-2 text-xs">
         <span class="text-gray-400">concept:</span>
-        <a class="ml-2 text-indigo-200" href="https://twitter.com/malfaitrobin">@malfaitrobin</a>
+        <a class="ml-2 text-indigo-200" href="https://twitter.com/malfaitrobin"
+          >@malfaitrobin</a
+        >
       </div>
     </div>
   </div>
